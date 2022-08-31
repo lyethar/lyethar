@@ -1,5 +1,5 @@
 <h2> Hey there! I am Fabian. <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
-<img align="right" alt="GIF" src="https://c.tenor.com/54mjjpuowCgAAAAM/ninjala-jane.gif" width="500"/>
+<img align="right" alt="GIF" src="https://c.tenor.com/54mjjpuowCgAAAAM/ninjala-jane.gif" width="400"/>
 
 <h3> 👨🏻‍💻 About Me </h3>
 
