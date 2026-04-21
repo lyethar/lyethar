@@ -3,179 +3,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <div align="center">
 
-<svg width="100%" viewBox="0 0 900 290" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="glow-soft">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glow-hard">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-
-  <!-- ── Background ── -->
-  <rect width="900" height="290" rx="10" fill="#0d1117"/>
-  <rect x="1" y="1" width="898" height="288" rx="9" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.45"/>
-
-  <!-- ── Title Bar ── -->
-  <rect width="900" height="36" rx="10" fill="#161b22"/>
-  <rect y="18" width="900" height="18" fill="#161b22"/>
-  <line x1="0" y1="36" x2="900" y2="36" stroke="#00ff41" stroke-width="0.5" opacity="0.4"/>
-  <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
-  <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
-  <circle cx="62" cy="18" r="6" fill="#28c840"/>
-  <text x="450" y="23" font-family="Courier New,monospace" font-size="12" fill="#8b949e" text-anchor="middle">fabian@kali: ~ — bash — 160×44</text>
-
-  <!-- ── Binary Rain — Left ── -->
-  <text x="18" y="62"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
-  <text x="18" y="77"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">1</text>
-  <text x="18" y="92"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.08">0</text>
-  <text x="18" y="107" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">1</text>
-  <text x="18" y="122" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
-  <text x="18" y="137" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.30">0</text>
-  <text x="18" y="152" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">1</text>
-  <text x="18" y="167" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">0</text>
-  <text x="18" y="182" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">1</text>
-  <text x="18" y="197" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
-  <text x="18" y="212" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">1</text>
-  <text x="18" y="227" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">0</text>
-  <text x="18" y="242" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
-
-  <text x="36" y="54"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">1</text>
-  <text x="36" y="69"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
-  <text x="36" y="84"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">1</text>
-  <text x="36" y="99"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
-  <text x="36" y="114" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
-  <text x="36" y="129" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
-  <text x="36" y="144" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">1</text>
-  <text x="36" y="159" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.08">0</text>
-  <text x="36" y="174" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
-  <text x="36" y="189" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
-  <text x="36" y="204" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
-  <text x="36" y="219" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">1</text>
-  <text x="36" y="234" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
-
-  <text x="54" y="60"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">0</text>
-  <text x="54" y="75"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">1</text>
-  <text x="54" y="90"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
-  <text x="54" y="105" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">1</text>
-  <text x="54" y="120" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">0</text>
-  <text x="54" y="135" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">1</text>
-  <text x="54" y="150" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">0</text>
-  <text x="54" y="165" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
-  <text x="54" y="180" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">1</text>
-  <text x="54" y="195" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.08">0</text>
-  <text x="54" y="210" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
-  <text x="54" y="225" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
-  <text x="54" y="240" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">0</text>
-
-  <!-- ── Binary Rain — Right ── -->
-  <text x="828" y="62"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
-  <text x="828" y="77"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">0</text>
-  <text x="828" y="92"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">1</text>
-  <text x="828" y="107" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">0</text>
-  <text x="828" y="122" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
-  <text x="828" y="137" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
-  <text x="828" y="152" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">1</text>
-  <text x="828" y="167" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
-  <text x="828" y="182" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
-  <text x="828" y="197" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.08">1</text>
-  <text x="828" y="212" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
-  <text x="828" y="227" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
-  <text x="828" y="242" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">0</text>
-
-  <text x="846" y="54"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
-  <text x="846" y="69"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">1</text>
-  <text x="846" y="84"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">0</text>
-  <text x="846" y="99"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
-  <text x="846" y="114" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">1</text>
-  <text x="846" y="129" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
-  <text x="846" y="144" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
-  <text x="846" y="159" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
-  <text x="846" y="174" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">0</text>
-  <text x="846" y="189" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">1</text>
-  <text x="846" y="204" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.08">1</text>
-  <text x="846" y="219" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">0</text>
-  <text x="846" y="234" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
-
-  <text x="864" y="60"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
-  <text x="864" y="75"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
-  <text x="864" y="90"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">1</text>
-  <text x="864" y="105" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
-  <text x="864" y="120" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
-  <text x="864" y="135" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">0</text>
-  <text x="864" y="150" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
-  <text x="864" y="165" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">1</text>
-  <text x="864" y="180" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
-  <text x="864" y="195" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">0</text>
-  <text x="864" y="210" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
-  <text x="864" y="225" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
-  <text x="864" y="240" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">1</text>
-
-  <text x="882" y="56"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
-  <text x="882" y="71"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
-  <text x="882" y="86"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
-  <text x="882" y="101" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">1</text>
-  <text x="882" y="116" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
-  <text x="882" y="131" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
-  <text x="882" y="146" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">0</text>
-  <text x="882" y="161" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">1</text>
-  <text x="882" y="176" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">0</text>
-  <text x="882" y="191" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
-  <text x="882" y="206" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">0</text>
-  <text x="882" y="221" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
-  <text x="882" y="236" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
-
-  <!-- ── Circuit Traces — Top Left ── -->
-  <line x1="78" y1="85" x2="170" y2="85" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
-  <line x1="170" y1="85" x2="170" y2="65" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
-  <line x1="170" y1="65" x2="240" y2="65" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
-  <circle cx="170" cy="85" r="2.5" fill="#00ff41" opacity="0.5"/>
-  <circle cx="240" cy="65" r="2" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-
-  <line x1="78" y1="185" x2="140" y2="185" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
-  <line x1="140" y1="185" x2="140" y2="165" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
-  <line x1="140" y1="165" x2="210" y2="165" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
-  <circle cx="140" cy="185" r="2.5" fill="#00ff41" opacity="0.4"/>
-
-  <!-- ── Circuit Traces — Top Right ── -->
-  <line x1="822" y1="85" x2="730" y2="85" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
-  <line x1="730" y1="85" x2="730" y2="65" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
-  <line x1="730" y1="65" x2="660" y2="65" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
-  <circle cx="730" cy="85" r="2.5" fill="#00ff41" opacity="0.5"/>
-  <circle cx="660" cy="65" r="2" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-
-  <line x1="822" y1="185" x2="760" y2="185" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
-  <line x1="760" y1="185" x2="760" y2="165" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
-  <line x1="760" y1="165" x2="690" y2="165" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
-  <circle cx="760" cy="185" r="2.5" fill="#00ff41" opacity="0.4"/>
-
-  <!-- ── Separator Lines Around Title ── -->
-  <line x1="90" y1="100" x2="286" y2="100" stroke="#00ff41" stroke-width="0.8" opacity="0.5"/>
-  <polygon points="286,96 298,100 286,104" fill="#00ff41" opacity="0.5"/>
-  <line x1="614" y1="100" x2="810" y2="100" stroke="#00ff41" stroke-width="0.8" opacity="0.5"/>
-  <polygon points="614,96 602,100 614,104" fill="#00ff41" opacity="0.5"/>
-
-  <!-- ── Main Title ── -->
-  <!-- ── Subtitle ── -->
-  <text x="450" y="166" font-family="Courier New,monospace" font-size="13" fill="#4ade80" text-anchor="middle" letter-spacing="6" opacity="0.9">PRINCIPAL PENETRATION TESTER</text>
-
-  <!-- ── Terminal Command ── -->
-  <text x="90" y="225" font-family="Courier New,monospace" font-size="12" fill="#4ade80" opacity="0.75">root@kali:~#</text>
-  <text x="183" y="225" font-family="Courier New,monospace" font-size="12" fill="#00ff41" opacity="0.9"> ./exploit.py --target all --evasion advanced --stealth</text>
-  <!-- Blinking cursor -->
-  <rect x="694" y="213" width="8" height="14" fill="#00ff41">
-    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- ── Status Bar ── -->
-  <line x1="0" y1="250" x2="900" y2="250" stroke="#00ff41" stroke-width="0.5" opacity="0.3"/>
-  <text x="15"  y="267" font-family="Courier New,monospace" font-size="10" fill="#00ff41" opacity="0.55">● ONLINE</text>
-  <text x="450" y="267" font-family="Courier New,monospace" font-size="10" fill="#4ade80" text-anchor="middle" opacity="0.5">OSCP · OSEP · CRTO · CARTP · ARTE · GRTE · MSec-CAIS · C-AI/MLPen</text>
-  <text x="885" y="267" font-family="Courier New,monospace" font-size="10" fill="#00ff41" text-anchor="end" opacity="0.5">Miami, FL</text>
-</svg>
+<img src=".github/assets/header-banner.svg" width="100%" alt="header banner"/>
 
 <br/>
 
@@ -204,18 +32,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                         CIRCUIT DIVIDER                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<svg width="100%" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="50" fill="#0d1117"/>
-  <line x1="0"   y1="25" x2="370" y2="25" stroke="#00ff41" stroke-width="1" opacity="0.5"/>
-  <line x1="530" y1="25" x2="900" y2="25" stroke="#00ff41" stroke-width="1" opacity="0.5"/>
-  <polygon points="390,15 410,25 390,35" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.7"/>
-  <polygon points="510,15 490,25 510,35" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.7"/>
-  <text x="450" y="30" font-family="Courier New,monospace" font-size="13" fill="#00ff41" text-anchor="middle" opacity="0.8">◆</text>
-  <circle cx="250" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="250" y1="25" x2="250" y2="40" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
-  <circle cx="650" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="650" y1="25" x2="650" y2="10" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
-</svg>
+<img src=".github/assets/divider-a.svg" width="100%" height="50" alt="divider"/>
 
 <br/>
 
@@ -257,23 +74,7 @@ fabian@kali:~$ echo $STATS
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                         CIRCUIT DIVIDER                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<svg width="100%" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="50" fill="#0d1117"/>
-  <line x1="0"   y1="25" x2="900" y2="25" stroke="#00ff41" stroke-width="0.6" opacity="0.3"/>
-  <circle cx="100" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="100" y1="25" x2="100" y2="8"  stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <line   x1="100" y1="8"  x2="160" y2="8"  stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <circle cx="100" cy="8"  r="2"   fill="none" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
-  <circle cx="300" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="300" y1="25" x2="300" y2="42" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <line   x1="300" y1="42" x2="360" y2="42" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <circle cx="600" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="600" y1="25" x2="600" y2="8"  stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <line   x1="600" y1="8"  x2="540" y2="8"  stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <circle cx="800" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="800" y1="25" x2="800" y2="42" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <line   x1="800" y1="42" x2="740" y2="42" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-</svg>
+<img src=".github/assets/divider-b.svg" width="100%" height="50" alt="divider"/>
 
 <br/>
 
@@ -319,20 +120,7 @@ fabian@kali:~$ echo $STATS
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                         CIRCUIT DIVIDER                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<svg width="100%" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="50" fill="#0d1117"/>
-  <line x1="0"   y1="25" x2="370" y2="25" stroke="#00ff41" stroke-width="1" opacity="0.5"/>
-  <line x1="530" y1="25" x2="900" y2="25" stroke="#00ff41" stroke-width="1" opacity="0.5"/>
-  <polygon points="390,15 410,25 390,35" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.7"/>
-  <polygon points="510,15 490,25 510,35" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.7"/>
-  <text x="450" y="30" font-family="Courier New,monospace" font-size="13" fill="#00ff41" text-anchor="middle" opacity="0.8">◆</text>
-  <circle cx="200" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="200" y1="25" x2="200" y2="40" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
-  <circle cx="700" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="700" y1="25" x2="700" y2="10" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
-  <circle cx="80"  cy="25" r="2"   fill="#00ff41" opacity="0.35"/>
-  <circle cx="820" cy="25" r="2"   fill="#00ff41" opacity="0.35"/>
-</svg>
+<img src=".github/assets/divider-a.svg" width="100%" height="50" alt="divider"/>
 
 <br/>
 
@@ -397,20 +185,7 @@ fabian@kali:~$ echo $STATS
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                         CIRCUIT DIVIDER                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<svg width="100%" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="50" fill="#0d1117"/>
-  <line x1="0"   y1="25" x2="900" y2="25" stroke="#00ff41" stroke-width="0.6" opacity="0.3"/>
-  <circle cx="450" cy="25" r="5"   fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.6"/>
-  <circle cx="450" cy="25" r="2"   fill="#00ff41" opacity="0.6"/>
-  <circle cx="150" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="150" y1="25" x2="150" y2="10" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <line   x1="150" y1="10" x2="200" y2="10" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <circle cx="750" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="750" y1="25" x2="750" y2="40" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <line   x1="750" y1="40" x2="700" y2="40" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <circle cx="50"  cy="25" r="2"   fill="#00ff41" opacity="0.3"/>
-  <circle cx="850" cy="25" r="2"   fill="#00ff41" opacity="0.3"/>
-</svg>
+<img src=".github/assets/divider-b.svg" width="100%" height="50" alt="divider"/>
 
 <br/>
 
@@ -443,18 +218,7 @@ fabian@kali:~$ echo $STATS
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                         CIRCUIT DIVIDER                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<svg width="100%" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="50" fill="#0d1117"/>
-  <line x1="0"   y1="25" x2="370" y2="25" stroke="#00ff41" stroke-width="1" opacity="0.5"/>
-  <line x1="530" y1="25" x2="900" y2="25" stroke="#00ff41" stroke-width="1" opacity="0.5"/>
-  <polygon points="390,15 410,25 390,35" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.7"/>
-  <polygon points="510,15 490,25 510,35" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.7"/>
-  <text x="450" y="30" font-family="Courier New,monospace" font-size="13" fill="#00ff41" text-anchor="middle" opacity="0.8">◆</text>
-  <circle cx="250" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="250" y1="25" x2="250" y2="40" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
-  <circle cx="650" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="650" y1="25" x2="650" y2="10" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
-</svg>
+<img src=".github/assets/divider-a.svg" width="100%" height="50" alt="divider"/>
 
 <br/>
 
@@ -466,44 +230,7 @@ fabian@kali:~$ echo $STATS
 
 <div align="center">
 
-<svg width="100%" viewBox="0 0 900 195" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="195" rx="8" fill="#0d1117"/>
-  <rect x="1" y="1" width="898" height="193" rx="7" fill="none" stroke="#00ff41" stroke-width="0.8" opacity="0.4"/>
-  <!-- Header row -->
-  <rect width="900" height="32" rx="8" fill="#161b22"/>
-  <rect y="16" width="900" height="16" fill="#161b22"/>
-  <line x1="0" y1="32" x2="900" y2="32" stroke="#00ff41" stroke-width="0.5" opacity="0.35"/>
-  <text x="20" y="21" font-family="Courier New,monospace" font-size="11" fill="#8b949e">lyethar@github:~/stars/lists$  ls -la</text>
-  <!-- Column headers -->
-  <text x="20"  y="52" font-family="Courier New,monospace" font-size="11" fill="#4ade80" opacity="0.5">PERMISSIONS</text>
-  <text x="160" y="52" font-family="Courier New,monospace" font-size="11" fill="#4ade80" opacity="0.5">REPOS</text>
-  <text x="220" y="52" font-family="Courier New,monospace" font-size="11" fill="#4ade80" opacity="0.5">LIST NAME</text>
-  <text x="520" y="52" font-family="Courier New,monospace" font-size="11" fill="#4ade80" opacity="0.5">DESCRIPTION</text>
-  <line x1="12" y1="57" x2="888" y2="57" stroke="#00ff41" stroke-width="0.4" opacity="0.2"/>
-  <!-- Row 1 — AI Projects -->
-  <text x="20"  y="77" font-family="Courier New,monospace" font-size="12" fill="#4ade80" opacity="0.6">drwxr-xr-x</text>
-  <text x="160" y="77" font-family="Courier New,monospace" font-size="12" fill="#8b949e">2</text>
-  <text x="220" y="77" font-family="Courier New,monospace" font-size="12" fill="#9333EA" font-weight="bold">ai-projects/</text>
-  <text x="520" y="77" font-family="Courier New,monospace" font-size="12" fill="#8b949e">AI/ML Penetration Testing tools &amp; projects</text>
-  <!-- Row 2 — Cloud Tools -->
-  <text x="20"  y="105" font-family="Courier New,monospace" font-size="12" fill="#4ade80" opacity="0.6">drwxr-xr-x</text>
-  <text x="160" y="105" font-family="Courier New,monospace" font-size="12" fill="#8b949e">3</text>
-  <text x="220" y="105" font-family="Courier New,monospace" font-size="12" fill="#38bdf8" font-weight="bold">cloud-tools/</text>
-  <text x="520" y="105" font-family="Courier New,monospace" font-size="12" fill="#8b949e">AWS · Azure · GCP penetration testing tooling</text>
-  <!-- Row 3 — Web Application Tools -->
-  <text x="20"  y="133" font-family="Courier New,monospace" font-size="12" fill="#4ade80" opacity="0.6">drwxr-xr-x</text>
-  <text x="160" y="133" font-family="Courier New,monospace" font-size="12" fill="#8b949e">2</text>
-  <text x="220" y="133" font-family="Courier New,monospace" font-size="12" fill="#fb923c" font-weight="bold">web-application-tools/</text>
-  <text x="520" y="133" font-family="Courier New,monospace" font-size="12" fill="#8b949e">Web application penetration testing tooling</text>
-  <!-- Row 4 — AD / Network Tools -->
-  <text x="20"  y="161" font-family="Courier New,monospace" font-size="12" fill="#4ade80" opacity="0.6">drwxr-xr-x</text>
-  <text x="160" y="161" font-family="Courier New,monospace" font-size="12" fill="#8b949e">2</text>
-  <text x="220" y="161" font-family="Courier New,monospace" font-size="12" fill="#f87171" font-weight="bold">ad-network-tools/</text>
-  <text x="520" y="161" font-family="Courier New,monospace" font-size="12" fill="#8b949e">Internal &amp; Active Directory penetration testing</text>
-  <!-- Bottom prompt -->
-  <line x1="12" y1="172" x2="888" y2="172" stroke="#00ff41" stroke-width="0.4" opacity="0.2"/>
-  <text x="20" y="186" font-family="Courier New,monospace" font-size="11" fill="#4ade80" opacity="0.5">4 directories, 9 repositories total</text>
-</svg>
+<img src=".github/assets/repo-lists.svg" width="100%" alt="repository lists"/>
 
 <br/><br/>
 
@@ -567,45 +294,13 @@ fabian@kali:~$ echo $STATS
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                         CIRCUIT DIVIDER                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<svg width="100%" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="50" fill="#0d1117"/>
-  <line x1="0"   y1="25" x2="900" y2="25" stroke="#00ff41" stroke-width="0.6" opacity="0.3"/>
-  <circle cx="100" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="100" y1="25" x2="100" y2="42" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <line   x1="100" y1="42" x2="170" y2="42" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <circle cx="300" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="300" y1="25" x2="300" y2="8"  stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <line   x1="300" y1="8"  x2="370" y2="8"  stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <circle cx="600" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="600" y1="25" x2="600" y2="42" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <line   x1="600" y1="42" x2="530" y2="42" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <circle cx="800" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="800" y1="25" x2="800" y2="8"  stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-  <line   x1="800" y1="8"  x2="730" y2="8"  stroke="#00ff41" stroke-width="1" opacity="0.4"/>
-</svg>
+<img src=".github/assets/divider-b.svg" width="100%" height="50" alt="divider"/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                            FOOTER                                       -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <div align="center">
 
-<svg width="100%" viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="f-glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect width="900" height="100" rx="8" fill="#0d1117"/>
-  <rect x="1" y="1" width="898" height="98" rx="7" fill="none" stroke="#00ff41" stroke-width="0.8" opacity="0.4"/>
-
-  <!-- Top trace -->
-  <line x1="0" y1="1" x2="900" y2="1" stroke="#00ff41" stroke-width="0" opacity="0"/>
-
-  <!-- Scan line animation -->
-  <rect x="2" y="2" width="896" height="3" fill="#00ff41" opacity="0.04">
-    <animateTransform attributeName="transform" type="translate" from="0,0" to="0,95" dur="3s" repeatCount="indefinite"/>
-  </rect>
-</svg>
+<img src=".github/assets/footer.svg" width="100%" alt="footer"/>
 
 </div>
