@@ -611,14 +611,6 @@ fabian@kali:~$ echo $STATS
   <rect x="2" y="2" width="896" height="3" fill="#00ff41" opacity="0.04">
     <animateTransform attributeName="transform" type="translate" from="0,0" to="0,95" dur="3s" repeatCount="indefinite"/>
   </rect>
-
-  <!-- Left bracket -->
-  <text x="30" y="45" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#f-glow)">&#x2502;</text>
-  <text x="45" y="45" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#f-glow)">&#x003E;</text
-
-  <!-- Right bracket -->
-  <text x="840" y="45" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#f-glow)">&#x003C;</text>
-  <text x="855" y="45" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#f-glow)">&#x2502;</text>
 </svg>
 
 </div>
