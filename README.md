@@ -55,7 +55,7 @@ fabian@kali:~$ cat about.txt
   Passionate red teamer with 4+ years of hands-on offensive security
   experience. Driven by an insatiable curiosity for hacking and a
   relentless commitment to continuous learning. Specializing in internal,
-  external, assumed-breach, web application, and cloud penetration tests
+  external, assumed-breach, web application, AI-powered applications and cloud penetration tests
   across healthcare, finance, and technology sectors.
 
   Currently looking to push the frontier of AI/ML security — researching
