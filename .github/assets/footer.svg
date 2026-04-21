@@ -19,7 +19,7 @@
   <text x="28" y="47" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#quote-glow)">|&gt;</text>
 
   <!-- Quote text with glow -->
-  <text x="450" y="40" font-family="Courier New,monospace" font-size="14" fill="#00ff41" text-anchor="middle" letter-spacing="3" opacity="0.9" filter="url(#quote-glow)">HACKING SYSTEMS BEFORE OUR ADVERSARIES DO</text>
+  <text x="450" y="40" font-family="Courier New,monospace" font-size="14" fill="#00ff41" text-anchor="middle" letter-spacing="3" opacity="0.9" filter="url(#quote-glow)">HACKING SYSTEMS BEFORE OUR ADVERSARIES</text>
   <!-- Right bracket -->
   <text x="848" y="47" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#quote-glow)">&lt;|</text>
 
