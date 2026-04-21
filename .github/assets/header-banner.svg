@@ -1,0 +1,170 @@
+<svg width="900" height="290" viewBox="0 0 900 290" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow-soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-hard" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ── Background ── -->
+  <rect width="900" height="290" rx="10" fill="#0d1117"/>
+  <rect x="1" y="1" width="898" height="288" rx="9" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.45"/>
+
+  <!-- ── Title Bar ── -->
+  <rect width="900" height="36" rx="10" fill="#161b22"/>
+  <rect y="18" width="900" height="18" fill="#161b22"/>
+  <line x1="0" y1="36" x2="900" y2="36" stroke="#00ff41" stroke-width="0.5" opacity="0.4"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="18" r="6" fill="#28c840"/>
+  <text x="450" y="23" font-family="Courier New,monospace" font-size="12" fill="#8b949e" text-anchor="middle">fabian@kali: ~ — bash — 160×44</text>
+
+  <!-- ── Binary Rain — Left ── -->
+  <text x="18" y="62"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
+  <text x="18" y="77"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">1</text>
+  <text x="18" y="92"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.08">0</text>
+  <text x="18" y="107" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">1</text>
+  <text x="18" y="122" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
+  <text x="18" y="137" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.30">0</text>
+  <text x="18" y="152" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">1</text>
+  <text x="18" y="167" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">0</text>
+  <text x="18" y="182" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">1</text>
+  <text x="18" y="197" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
+  <text x="18" y="212" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">1</text>
+  <text x="18" y="227" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">0</text>
+  <text x="18" y="242" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
+  <text x="36" y="54"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">1</text>
+  <text x="36" y="69"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
+  <text x="36" y="84"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">1</text>
+  <text x="36" y="99"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
+  <text x="36" y="114" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
+  <text x="36" y="129" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
+  <text x="36" y="144" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">1</text>
+  <text x="36" y="159" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.08">0</text>
+  <text x="36" y="174" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
+  <text x="36" y="189" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
+  <text x="36" y="204" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
+  <text x="36" y="219" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">1</text>
+  <text x="36" y="234" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
+  <text x="54" y="60"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">0</text>
+  <text x="54" y="75"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">1</text>
+  <text x="54" y="90"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
+  <text x="54" y="105" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">1</text>
+  <text x="54" y="120" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">0</text>
+  <text x="54" y="135" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">1</text>
+  <text x="54" y="150" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">0</text>
+  <text x="54" y="165" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
+  <text x="54" y="180" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">1</text>
+  <text x="54" y="195" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.08">0</text>
+  <text x="54" y="210" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
+  <text x="54" y="225" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
+  <text x="54" y="240" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">0</text>
+
+  <!-- ── Binary Rain — Right ── -->
+  <text x="828" y="62"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
+  <text x="828" y="77"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">0</text>
+  <text x="828" y="92"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">1</text>
+  <text x="828" y="107" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">0</text>
+  <text x="828" y="122" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
+  <text x="828" y="137" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
+  <text x="828" y="152" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">1</text>
+  <text x="828" y="167" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
+  <text x="828" y="182" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
+  <text x="828" y="197" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.08">1</text>
+  <text x="828" y="212" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
+  <text x="828" y="227" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
+  <text x="828" y="242" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">0</text>
+  <text x="846" y="54"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
+  <text x="846" y="69"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">1</text>
+  <text x="846" y="84"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">0</text>
+  <text x="846" y="99"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
+  <text x="846" y="114" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">1</text>
+  <text x="846" y="129" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
+  <text x="846" y="144" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
+  <text x="846" y="159" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
+  <text x="846" y="174" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">0</text>
+  <text x="846" y="189" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">1</text>
+  <text x="846" y="204" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.08">1</text>
+  <text x="846" y="219" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">0</text>
+  <text x="846" y="234" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
+  <text x="864" y="60"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
+  <text x="864" y="75"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
+  <text x="864" y="90"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">1</text>
+  <text x="864" y="105" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
+  <text x="864" y="120" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
+  <text x="864" y="135" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">0</text>
+  <text x="864" y="150" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
+  <text x="864" y="165" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">1</text>
+  <text x="864" y="180" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
+  <text x="864" y="195" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">0</text>
+  <text x="864" y="210" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
+  <text x="864" y="225" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
+  <text x="864" y="240" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">1</text>
+  <text x="882" y="56"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">0</text>
+  <text x="882" y="71"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
+  <text x="882" y="86"  font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.26">0</text>
+  <text x="882" y="101" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">1</text>
+  <text x="882" y="116" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.20">0</text>
+  <text x="882" y="131" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.16">1</text>
+  <text x="882" y="146" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.28">0</text>
+  <text x="882" y="161" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.10">1</text>
+  <text x="882" y="176" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.22">0</text>
+  <text x="882" y="191" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.14">1</text>
+  <text x="882" y="206" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.24">0</text>
+  <text x="882" y="221" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.18">1</text>
+  <text x="882" y="236" font-family="Courier New,monospace" font-size="11" fill="#00ff41" opacity="0.12">0</text>
+
+  <!-- ── Circuit Traces — Top Left ── -->
+  <line x1="78" y1="85" x2="170" y2="85" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+  <line x1="170" y1="85" x2="170" y2="65" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+  <line x1="170" y1="65" x2="240" y2="65" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+  <circle cx="170" cy="85" r="2.5" fill="#00ff41" opacity="0.5"/>
+  <circle cx="240" cy="65" r="2" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
+  <line x1="78" y1="185" x2="140" y2="185" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+  <line x1="140" y1="185" x2="140" y2="165" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+  <line x1="140" y1="165" x2="210" y2="165" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+  <circle cx="140" cy="185" r="2.5" fill="#00ff41" opacity="0.4"/>
+
+  <!-- ── Circuit Traces — Top Right ── -->
+  <line x1="822" y1="85" x2="730" y2="85" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+  <line x1="730" y1="85" x2="730" y2="65" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+  <line x1="730" y1="65" x2="660" y2="65" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+  <circle cx="730" cy="85" r="2.5" fill="#00ff41" opacity="0.5"/>
+  <circle cx="660" cy="65" r="2" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
+  <line x1="822" y1="185" x2="760" y2="185" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+  <line x1="760" y1="185" x2="760" y2="165" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+  <line x1="760" y1="165" x2="690" y2="165" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+  <circle cx="760" cy="185" r="2.5" fill="#00ff41" opacity="0.4"/>
+
+  <!-- ── Separator Lines Around Title ── -->
+  <line x1="90" y1="100" x2="286" y2="100" stroke="#00ff41" stroke-width="0.8" opacity="0.5"/>
+  <polygon points="286,96 298,100 286,104" fill="#00ff41" opacity="0.5"/>
+  <line x1="614" y1="100" x2="810" y2="100" stroke="#00ff41" stroke-width="0.8" opacity="0.5"/>
+  <polygon points="614,96 602,100 614,104" fill="#00ff41" opacity="0.5"/>
+
+  <!-- ── Main Title with full glow filter ── -->
+  <text x="450" y="136" font-family="Courier New,monospace" font-size="70" font-weight="bold" fill="#00ff41" text-anchor="middle" filter="url(#glow-hard)">LYETHAR</text>
+
+  <!-- ── Subtitle ── -->
+  <text x="450" y="166" font-family="Courier New,monospace" font-size="13" fill="#4ade80" text-anchor="middle" letter-spacing="6" opacity="0.9" filter="url(#glow-soft)">PRINCIPAL PENETRATION TESTER</text>
+  <text x="450" y="188" font-family="Courier New,monospace" font-size="11" fill="#4ade80" text-anchor="middle" letter-spacing="2" opacity="0.6">RED TEAM OPERATOR  ·  AI SECURITY RESEARCHER  ·  BUG BOUNTY HUNTER</text>
+
+  <!-- ── Terminal Command ── -->
+  <text x="90" y="225" font-family="Courier New,monospace" font-size="12" fill="#4ade80" opacity="0.75">root@kali:~#</text>
+  <text x="183" y="225" font-family="Courier New,monospace" font-size="12" fill="#00ff41" opacity="0.9"> ./exploit.py --target all --evasion advanced --stealth</text>
+
+  <!-- ── Blinking cursor — SMIL animation ── -->
+  <rect x="694" y="213" width="8" height="14" fill="#00ff41">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ── Status Bar ── -->
+  <line x1="0" y1="250" x2="900" y2="250" stroke="#00ff41" stroke-width="0.5" opacity="0.3"/>
+  <text x="15"  y="267" font-family="Courier New,monospace" font-size="10" fill="#00ff41" opacity="0.55">● ONLINE</text>
+  <text x="450" y="267" font-family="Courier New,monospace" font-size="10" fill="#4ade80" text-anchor="middle" opacity="0.5">OSCP · OSEP · CRTO · CARTP · ARTE · GRTE · MSec-CAIS · C-AI/MLPen</text>
+  <text x="885" y="267" font-family="Courier New,monospace" font-size="10" fill="#00ff41" text-anchor="end" opacity="0.5">Miami, FL</text>
+</svg>

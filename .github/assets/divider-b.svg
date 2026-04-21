@@ -1,0 +1,43 @@
+<svg width="900" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="node-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="50" fill="#0d1117"/>
+
+  <!-- Full-width base trace -->
+  <line x1="0" y1="25" x2="900" y2="25" stroke="#00ff41" stroke-width="0.6" opacity="0.3"/>
+
+  <!-- Center accent -->
+  <circle cx="450" cy="25" r="5"  fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.6"/>
+  <circle cx="450" cy="25" r="2"  fill="#00ff41" opacity="0.7" filter="url(#node-glow)"/>
+
+  <!-- Node — top-left branch -->
+  <circle cx="150" cy="25" r="3"  fill="#00ff41" opacity="0.6" filter="url(#node-glow)"/>
+  <line   x1="150" y1="25" x2="150" y2="9"  stroke="#00ff41" stroke-width="1" opacity="0.4"/>
+  <line   x1="150" y1="9"  x2="210" y2="9"  stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+  <circle cx="210" cy="9"  r="1.5" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+
+  <!-- Node — bottom-left branch -->
+  <circle cx="310" cy="25" r="3"  fill="#00ff41" opacity="0.5"/>
+  <line   x1="310" y1="25" x2="310" y2="41" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
+  <line   x1="310" y1="41" x2="370" y2="41" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+
+  <!-- Node — top-right branch -->
+  <circle cx="590" cy="25" r="3"  fill="#00ff41" opacity="0.6" filter="url(#node-glow)"/>
+  <line   x1="590" y1="25" x2="590" y2="9"  stroke="#00ff41" stroke-width="1" opacity="0.4"/>
+  <line   x1="590" y1="9"  x2="530" y2="9"  stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+  <circle cx="530" cy="9"  r="1.5" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+
+  <!-- Node — bottom-right branch -->
+  <circle cx="750" cy="25" r="3"  fill="#00ff41" opacity="0.5"/>
+  <line   x1="750" y1="25" x2="750" y2="41" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
+  <line   x1="750" y1="41" x2="690" y2="41" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+
+  <!-- Edge dots -->
+  <circle cx="40"  cy="25" r="2" fill="#00ff41" opacity="0.25"/>
+  <circle cx="860" cy="25" r="2" fill="#00ff41" opacity="0.25"/>
+</svg>

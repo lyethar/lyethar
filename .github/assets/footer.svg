@@ -1,0 +1,33 @@
+<svg width="900" height="100" viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="quote-glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="100" rx="8" fill="#0d1117"/>
+  <rect x="1" y="1" width="898" height="98" rx="7" fill="none" stroke="#00ff41" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Scan line — SMIL animation -->
+  <rect x="2" y="2" width="896" height="2" fill="#00ff41" opacity="0.06">
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="0,95" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Left bracket -->
+  <text x="28" y="47" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#quote-glow)">|&gt;</text>
+
+  <!-- Quote text with glow -->
+  <text x="450" y="40" font-family="Courier New,monospace" font-size="14" fill="#00ff41" text-anchor="middle" letter-spacing="3" opacity="0.9" filter="url(#quote-glow)">THE QUIETER YOU BECOME</text>
+  <text x="450" y="62" font-family="Courier New,monospace" font-size="14" fill="#00ff41" text-anchor="middle" letter-spacing="3" opacity="0.9" filter="url(#quote-glow)">THE MORE YOU ARE ABLE TO HEAR</text>
+
+  <!-- Right bracket -->
+  <text x="848" y="47" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#quote-glow)">&lt;|</text>
+
+  <!-- Bottom status line -->
+  <line x1="0" y1="80" x2="900" y2="80" stroke="#00ff41" stroke-width="0.5" opacity="0.25"/>
+  <text x="15"  y="93" font-family="Courier New,monospace" font-size="9" fill="#4ade80" opacity="0.4">SESSION LOGGED</text>
+  <text x="450" y="93" font-family="Courier New,monospace" font-size="9" fill="#4ade80" text-anchor="middle" opacity="0.4">© lyethar — Fabian Crespo</text>
+  <text x="885" y="93" font-family="Courier New,monospace" font-size="9" fill="#4ade80" text-anchor="end" opacity="0.4">CONNECTION TERMINATED</text>
+</svg>

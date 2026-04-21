@@ -1,0 +1,39 @@
+<svg width="900" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="node-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="50" fill="#0d1117"/>
+
+  <!-- Main horizontal traces -->
+  <line x1="0"   y1="25" x2="370" y2="25" stroke="#00ff41" stroke-width="1" opacity="0.5"/>
+  <line x1="530" y1="25" x2="900" y2="25" stroke="#00ff41" stroke-width="1" opacity="0.5"/>
+
+  <!-- Center — opposing arrows + diamond -->
+  <polygon points="390,15 412,25 390,35" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.7"/>
+  <polygon points="510,15 488,25 510,35" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.7"/>
+  <circle cx="450" cy="25" r="4" fill="#00ff41" opacity="0.9" filter="url(#node-glow)"/>
+
+  <!-- Left nodes with branch traces -->
+  <circle cx="150" cy="25" r="3" fill="#00ff41" opacity="0.6" filter="url(#node-glow)"/>
+  <line   x1="150" y1="25" x2="150" y2="10" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
+  <line   x1="150" y1="10" x2="190" y2="10" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+
+  <circle cx="280" cy="25" r="2.5" fill="#00ff41" opacity="0.45"/>
+  <line   x1="280" y1="25" x2="280" y2="38" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+
+  <!-- Right nodes with branch traces -->
+  <circle cx="750" cy="25" r="3" fill="#00ff41" opacity="0.6" filter="url(#node-glow)"/>
+  <line   x1="750" y1="25" x2="750" y2="40" stroke="#00ff41" stroke-width="1" opacity="0.4"/>
+  <line   x1="750" y1="40" x2="710" y2="40" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+
+  <circle cx="620" cy="25" r="2.5" fill="#00ff41" opacity="0.45"/>
+  <line   x1="620" y1="25" x2="620" y2="12" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
+
+  <!-- Edge dots -->
+  <circle cx="50"  cy="25" r="2" fill="#00ff41" opacity="0.3"/>
+  <circle cx="850" cy="25" r="2" fill="#00ff41" opacity="0.3"/>
+</svg>
