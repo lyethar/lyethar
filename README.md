@@ -216,12 +216,10 @@
   <polygon points="390,15 410,25 390,35" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.7"/>
   <polygon points="510,15 490,25 510,35" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0.7"/>
   <text x="450" y="30" font-family="Courier New,monospace" font-size="13" fill="#00ff41" text-anchor="middle" opacity="0.8">◆</text>
-  <circle cx="150" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="150" y1="25" x2="150" y2="10" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
-  <circle cx="750" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
-  <line   x1="750" y1="25" x2="750" y2="40" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
-  <circle cx="300" cy="25" r="2"   fill="#00ff41" opacity="0.35"/>
-  <circle cx="600" cy="25" r="2"   fill="#00ff41" opacity="0.35"/>
+  <circle cx="250" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
+  <line   x1="250" y1="25" x2="250" y2="40" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
+  <circle cx="650" cy="25" r="3"   fill="#00ff41" opacity="0.5"/>
+  <line   x1="650" y1="25" x2="650" y2="10" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
 </svg>
 
 <br/>
