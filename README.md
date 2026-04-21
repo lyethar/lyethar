@@ -623,12 +623,6 @@ fabian@kali:~$ echo $STATS
   <!-- Right bracket -->
   <text x="840" y="45" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#f-glow)">&#x003C;</text>
   <text x="855" y="45" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#f-glow)">&#x2502;</text>
-
-  <!-- Bottom status line -->
-  <line x1="0" y1="80" x2="900" y2="80" stroke="#00ff41" stroke-width="0.5" opacity="0.25"/>
-  <text x="15"  y="93" font-family="Courier New,monospace" font-size="9" fill="#4ade80" opacity="0.4">SESSION LOGGED</text>
-  <text x="450" y="93" font-family="Courier New,monospace" font-size="9" fill="#4ade80" text-anchor="middle" opacity="0.4">© lyethar — Fabian Crespo</text>
-  <text x="885" y="93" font-family="Courier New,monospace" font-size="9" fill="#4ade80" text-anchor="end" opacity="0.4">CONNECTION TERMINATED</text>
 </svg>
 
 </div>
