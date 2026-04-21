@@ -159,10 +159,6 @@
   <polygon points="614,96 602,100 614,104" fill="#00ff41" opacity="0.5"/>
 
   <!-- ── Main Title ── -->
-  <!-- Shadow/bloom layers -->
-  <text x="450" y="136" font-family="Courier New,monospace" font-size="72" font-weight="bold" fill="#00ff41" text-anchor="middle" opacity="0.08">LYETHAR</text>
-  <text x="450" y="136" font-family="Courier New,monospace" font-size="72" font-weight="bold" fill="#00ff41" text-anchor="middle" filter="url(#glow-hard)">LYETHAR</text>
-
   <!-- ── Subtitle ── -->
   <text x="450" y="166" font-family="Courier New,monospace" font-size="13" fill="#4ade80" text-anchor="middle" letter-spacing="6" opacity="0.9">PRINCIPAL PENETRATION TESTER</text>
 
