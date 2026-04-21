@@ -614,11 +614,7 @@ fabian@kali:~$ echo $STATS
 
   <!-- Left bracket -->
   <text x="30" y="45" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#f-glow)">&#x2502;</text>
-  <text x="45" y="45" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#f-glow)">&#x003E;</text>
-
-  <!-- Main text -->
-  <text x="450" y="40" font-family="Courier New,monospace" font-size="14" fill="#00ff41" text-anchor="middle" letter-spacing="3" filter="url(#f-glow)" opacity="0.9">THE QUIETER YOU BECOME</text>
-  <text x="450" y="62" font-family="Courier New,monospace" font-size="14" fill="#00ff41" text-anchor="middle" letter-spacing="3" filter="url(#f-glow)" opacity="0.9">THE MORE YOU ARE ABLE TO HEAR</text>
+  <text x="45" y="45" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#f-glow)">&#x003E;</text
 
   <!-- Right bracket -->
   <text x="840" y="45" font-family="Courier New,monospace" font-size="28" fill="#00ff41" opacity="0.5" filter="url(#f-glow)">&#x003C;</text>
