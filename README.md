@@ -165,7 +165,6 @@
 
   <!-- ── Subtitle ── -->
   <text x="450" y="166" font-family="Courier New,monospace" font-size="13" fill="#4ade80" text-anchor="middle" letter-spacing="6" opacity="0.9">PRINCIPAL PENETRATION TESTER</text>
-  <text x="450" y="188" font-family="Courier New,monospace" font-size="11" fill="#4ade80" text-anchor="middle" letter-spacing="2" opacity="0.6">RED TEAM OPERATOR  ·  AI SECURITY RESEARCHER  ·  BUG BOUNTY HUNTER</text>
 
   <!-- ── Terminal Command ── -->
   <text x="90" y="225" font-family="Courier New,monospace" font-size="12" fill="#4ade80" opacity="0.75">root@kali:~#</text>
