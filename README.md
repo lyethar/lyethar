@@ -48,7 +48,7 @@ fabian@kali:~$ whoami
   Name    : Fabian Crespo (lyethar)
   Role    : Principal Penetration Tester @ Clearwater  [Oct 2022 – Present]
   Location: Miami, FL  |  FIU BS Cybersecurity (Expected May 2026)
-  Focus   : Offensive Security • Red Teaming • AI/ML Security Research
+  Focus   : Offensive Security
 ──────────────────────────────────────────────────────────────────────────
 
 fabian@kali:~$ cat about.txt
@@ -59,7 +59,7 @@ fabian@kali:~$ cat about.txt
   across healthcare, finance, and technology sectors.
 
   Currently looking to push the frontier of AI/ML security — researching
-  adversarial attacks, LLM jailbreaks, and model extraction techniques.
+  adversarial attacks, LLM jailbreaks, and novel prompt injection techniques.
 
 fabian@kali:~$ echo $STATS
   ► 200+  penetration testing engagements delivered
