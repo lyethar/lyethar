@@ -7,7 +7,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=Principal+Penetration+Tester+%40+Clearwater;Red+Team+Operator+%7C+OSCP+%7C+OSEP+%7C+CRTO;AI+Security+Researcher+%7C+MSec-CAIS+%7C+C-AI%2FMLPen;Cloud+Red+Teamer+%7C+CARTP+%7C+ARTE+%7C+GRTE;Bug+Bounty+Hunter+%7C+HackerOne+%26+BugCrowd;200%2B+Penetration+Testing+Engagements)](https://lyethar.gitbook.io/methodology)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=Principal+Penetration+Tester;Red+Team+Operator+%7C+OSCP+%7C+OSEP+%7C+CRTO;AI+Security+%7C+MSec-CAIS+%7C+C-AI%2FMLPen;Cloud+Red+Teamer+%7C+CARTP+%7C+ARTE+%7C+GRTE;Bug+Bounty+Hunter+%7C+HackerOne+%26+BugCrowd;200%2B+Penetration+Testing+Engagements)](https://lyethar.gitbook.io/methodology)
 
 <br/>
 
