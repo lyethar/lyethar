@@ -16,7 +16,8 @@
 [![GitHub followers](https://img.shields.io/github/followers/lyethar?color=00ff41&style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=0d1117)](https://github.com/lyethar)
 
 <br/>
-
+[![Site](https://img.shields.io/badge/BLOG-lyethar.gitbook.io-00ff41?style=for-the-badge&logo=gitbook&logoColor=blue&labelColor=0d1117)](https://lyethar.github.io/)
+&nbsp;
 [![Blog](https://img.shields.io/badge/BLOG-lyethar.gitbook.io-00ff41?style=for-the-badge&logo=gitbook&logoColor=black&labelColor=0d1117)](https://lyethar.gitbook.io/methodology)
 &nbsp;
 [![HackerOne](https://img.shields.io/badge/HackerOne-lyethar-494649?style=for-the-badge&logo=hackerone&logoColor=white&labelColor=0d1117)](https://hackerone.com/lyethar)
