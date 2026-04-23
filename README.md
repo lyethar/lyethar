@@ -17,7 +17,7 @@
 
 <br/>
 
-[![Site](https://img.shields.io/badge/BLOG-lyethar.github.io-00ff41?style=for-the-badge&logo=gitbook&logoColor=blue&labelColor=0d1117)](https://lyethar.github.io/)
+[![Site](https://img.shields.io/badge/Portfolio-lyethar.github.io-00ff41?style=for-the-badge&logo=gitbook&logoColor=blue&labelColor=0d1117)](https://lyethar.github.io/)
 &nbsp;
 [![Blog](https://img.shields.io/badge/BLOG-lyethar.gitbook.io-00ff41?style=for-the-badge&logo=gitbook&logoColor=black&labelColor=0d1117)](https://lyethar.gitbook.io/methodology)
 &nbsp;
