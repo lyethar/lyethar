@@ -49,7 +49,6 @@ fabian@kali:~$ whoami
 ──────────────────────────────────────────────────────────────────────────
   Name    : Fabian Crespo (lyethar)
   Role    : Principal Penetration Tester @ Clearwater  [Oct 2022 – Present]
-  Location: Miami, FL  |  FIU BS Cybersecurity (Expected May 2026)
   Focus   : Offensive Security
 ──────────────────────────────────────────────────────────────────────────
 
@@ -62,13 +61,6 @@ fabian@kali:~$ cat about.txt
 
   Currently looking to push the frontier of AI/ML security — researching
   adversarial attacks, LLM jailbreaks, and novel prompt injection techniques.
-
-fabian@kali:~$ echo $STATS
-  ► 200+  penetration testing engagements delivered
-  ► 70/70 systems pwned in Offensive Security PWK labs
-  ► 41+   CTF-style enterprise simulation machines
-  ► 1st   Place — Nike Ready Player One Insidious Hackathon (2022)
-  ► Active bug bounty hunter on HackerOne & BugCrowd
 ```
 
 <br/>
@@ -203,16 +195,6 @@ fabian@kali:~$ echo $STATS
   ✓ Internal · External · Assumed-Breach · Web App · AI/ML · Cloud penetration tests
   ✓ Uncovered high-impact vulnerabilities; delivered executive & technical reports
   ✓ Managed client expectations, timelines & full testing lifecycle
-
-[2022-04 → PRESENT] SECURITY RESEARCHER — HackerOne & BugCrowd
-  ✓ Active web application security testing on public & private programs
-  ✓ Identifying and exploiting XSS, SQLi, IDOR, SSRF, Auth Bypass & more
-  ✓ Continuously improving exploitation techniques & testing methodologies
-
-[2022-05 → PRESENT] OFFENSIVE SECURITY LABS — Various Platforms
-  ✓ 70/70 systems compromised in Offensive Security PWK labs
-  ✓ 41+ CTF-style machines in real-world enterprise simulations
-  ✓ Focus: Active Directory · Network · Web App · Post-Exploitation
 ```
 
 <br/>
