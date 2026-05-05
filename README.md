@@ -234,7 +234,7 @@ fabian@kali:~$ cat about.txt
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/stars/lyethar/lists/web-application-tools">
-        <img src="https://img.shields.io/badge/Web_App_Tools-2_repos-fb923c?style=for-the-badge&logo=firefox&logoColor=white&labelColor=1a0800" alt="Web Application Tools"/>
+        <img src="https://img.shields.io/badge/Web_App_Tools-3_repos-fb923c?style=for-the-badge&logo=firefox&logoColor=white&labelColor=1a0800" alt="Web Application Tools"/>
         <br/><sub><b>Web Application Pentesting</b></sub>
       </a>
     </td>
