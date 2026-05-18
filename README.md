@@ -222,7 +222,7 @@ fabian@kali:~$ cat about.txt
   <tr>
     <td align="center" width="25%">
       <a href="https://github.com/stars/lyethar/lists/ai-projects">
-        <img src="https://img.shields.io/badge/AI_Projects-3_repos-9333EA?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d0022" alt="AI Projects"/>
+        <img src="https://img.shields.io/badge/AI_Projects-4_repos-9333EA?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d0022" alt="AI Projects"/>
         <br/><sub><b>AI/ML Penetration Testing</b></sub>
       </a>
     </td>
