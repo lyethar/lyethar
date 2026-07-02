@@ -6,9 +6,6 @@
 <img src=".github/assets/header-banner.svg" width="100%" alt="header banner"/>
 
 <br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=Principal+Penetration+Tester;Red+Team+Operator+%7C+OSCP+%7C+OSEP+%7C+CRTO;AI+Security+%7C+MSec-CAIS+%7C+C-AI%2FMLPen;Cloud+Red+Teamer+%7C+CARTP+%7C+ARTE+%7C+GRTE)](https://lyethar.gitbook.io/methodology)
-
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=lyethar&color=00ff41&style=for-the-badge&label=PROFILE+VIEWS)
