@@ -180,27 +180,6 @@ fabian@kali:~$ cat about.txt
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                         MISSION LOG                                     -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## `$ cat /var/log/mission_log.txt`
-
-```
-[2022-10 → PRESENT] PRINCIPAL PENETRATION TESTER — Clearwater
-  ✓ Led 200+ engagements across healthcare, finance & technology sectors
-  ✓ Internal · External · Assumed-Breach · Web App · AI/ML · Cloud penetration tests
-  ✓ Uncovered high-impact vulnerabilities; delivered executive & technical reports
-  ✓ Managed client expectations, timelines & full testing lifecycle
-```
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                         CIRCUIT DIVIDER                                 -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<img src=".github/assets/divider-a.svg" width="100%" height="50" alt="divider"/>
-
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
