@@ -164,6 +164,5 @@
   <!-- ── Status Bar ── -->
   <line x1="0" y1="250" x2="900" y2="250" stroke="#00ff41" stroke-width="0.5" opacity="0.3"/>
   <text x="15"  y="267" font-family="Courier New,monospace" font-size="10" fill="#00ff41" opacity="0.55">● ONLINE</text>
-  <text x="450" y="267" font-family="Courier New,monospace" font-size="10" fill="#4ade80" text-anchor="middle" opacity="0.5">OSCP · OSEP · CRTO · CARTP · ARTE · GRTE · MSec-CAIS · C-AI/MLPen</text>
-  <text x="885" y="267" font-family="Courier New,monospace" font-size="10" fill="#00ff41" text-anchor="end" opacity="0.5">Miami, FL</text>
+  <text x="450" y="267" font-family="Courier New,monospace" font-size="10" fill="#4ade80" text-anchor="middle" opacity="0.5">OSCP · OSEP · CRTO · CARTP · ARTE · GRTE · MSec-CAIS · C-AI/MLPen · COAE · PAPA</text>
 </svg>
