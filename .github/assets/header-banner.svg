@@ -148,10 +148,6 @@
 
   <!-- ── Main Title with full glow filter ── -->
   <text x="450" y="136" font-family="Courier New,monospace" font-size="70" font-weight="bold" fill="#00ff41" text-anchor="middle" filter="url(#glow-hard)">LYETHAR</text>
-
-  <!-- ── Subtitle ── -->
-  <text x="450" y="166" font-family="Courier New,monospace" font-size="13" fill="#4ade80" text-anchor="middle" letter-spacing="6" opacity="0.9" filter="url(#glow-soft)">PRINCIPAL PENETRATION TESTER</text>
-
   <!-- ── Terminal Command ── -->
   <text x="90" y="225" font-family="Courier New,monospace" font-size="12" fill="#4ade80" opacity="0.75">root@kali:~#</text>
   <text x="183" y="225" font-family="Courier New,monospace" font-size="12" fill="#00ff41" opacity="0.9"> ./exploit.py --target all --evasion advanced --stealth</text>
